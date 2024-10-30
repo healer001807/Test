@@ -1,9 +1,126 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="Page-1" id="ZfvWR1uH_MoN_jBklX_W">
-    <mxGraphModel>
+    <mxGraphModel dx="682" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="30" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-2" value="浏览器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-4" value="服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.04;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-6" value="第一次请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="148" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.12;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1Y6GvWqYkkOsmF5_owig-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="180" as="sourcePoint" />
+            <mxPoint x="480" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="180" />
+              <mxPoint x="510" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-8" value="创建sessionId:XXX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Y6GvWqYkkOsmF5_owig-7">
+          <mxGeometry x="-0.0497" y="-1" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.96;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1Y6GvWqYkkOsmF5_owig-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="447" y="220" as="sourcePoint" />
+            <mxPoint x="190" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-10" value="cookie:sessionId=XXX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Y6GvWqYkkOsmF5_owig-9">
+          <mxGeometry x="0.0506" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.96;exitY=0.428;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-1" target="1Y6GvWqYkkOsmF5_owig-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="250" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-13" value="登录&lt;div&gt;userName=w&amp;amp;password=111&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="253" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.107;exitY=0.645;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="370" as="sourcePoint" />
+            <mxPoint x="180" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-17" value="cookie:sessionId=XXX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Y6GvWqYkkOsmF5_owig-16">
+          <mxGeometry x="0.0329" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-11" target="1Y6GvWqYkkOsmF5_owig-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-19" value="验证登录后根据sessionId拿到会话并将凭证放入session中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="497" y="305" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="1Y6GvWqYkkOsmF5_owig-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="430" as="sourcePoint" />
+            <mxPoint x="230" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-22" value="需要登录才能访问的请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="408" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.987;entryY=0.944;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-20" target="1Y6GvWqYkkOsmF5_owig-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="490" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-24" value="cookie：sessionId=XXX" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Y6GvWqYkkOsmF5_owig-23">
+          <mxGeometry x="0.0844" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Y6GvWqYkkOsmF5_owig-20" target="1Y6GvWqYkkOsmF5_owig-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-27" value="拿到session，判断登录凭证是否存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="497" y="435" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-28" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="1Y6GvWqYkkOsmF5_owig-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="165" y="111" as="sourcePoint" />
+            <mxPoint x="165" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Y6GvWqYkkOsmF5_owig-31" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.587;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1Y6GvWqYkkOsmF5_owig-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
