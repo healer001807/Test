@@ -1,65 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
-  <diagram name="Page-1" id="tqxw0gBeraFI0OXL8EfA">
-    <mxGraphModel dx="1042" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Page-1" id="Sw3tG_lKU7R380QHMmkZ">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1UhxWynhZM064HHI5On9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1UhxWynhZM064HHI5On9-1" target="1UhxWynhZM064HHI5On9-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-19" value="发出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1UhxWynhZM064HHI5On9-16">
-          <mxGeometry x="0.0311" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="220" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1UhxWynhZM064HHI5On9-2" target="1UhxWynhZM064HHI5On9-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="300" y="170" />
-              <mxPoint x="700" y="170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-2" value="sql优化问题" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="210" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1UhxWynhZM064HHI5On9-3" target="1UhxWynhZM064HHI5On9-1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="700" y="440" />
-              <mxPoint x="75" y="440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-8" value="输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1UhxWynhZM064HHI5On9-7">
-          <mxGeometry x="-0.0722" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-3" value="大模型" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="210" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-9" value="提示词" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="220" width="56" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1UhxWynhZM064HHI5On9-9" target="1UhxWynhZM064HHI5On9-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="1UhxWynhZM064HHI5On9-2" target="1UhxWynhZM064HHI5On9-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-18" value="检索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="445" y="148" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-20" value="拼接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="355" y="228" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="1UhxWynhZM064HHI5On9-21" value="检索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="565" y="228" width="50" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
