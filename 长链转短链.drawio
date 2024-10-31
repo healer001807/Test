@@ -1,9 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="Page-1" id="WGitKeGFXY9WoPX6V7Na">
-    <mxGraphModel>
+    <mxGraphModel dx="1282" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="211oyKNce9JvNeMS8VaV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="211oyKNce9JvNeMS8VaV-1" target="211oyKNce9JvNeMS8VaV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-1" value="长链" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="211oyKNce9JvNeMS8VaV-4" target="211oyKNce9JvNeMS8VaV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="211oyKNce9JvNeMS8VaV-4" target="211oyKNce9JvNeMS8VaV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-4" value="校验长链" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="314" y="165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="211oyKNce9JvNeMS8VaV-6" target="211oyKNce9JvNeMS8VaV-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-6" value="转短链" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="335" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-9" value="弹框提示" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="187.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-11" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="268" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-12" value="不通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="178" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="211oyKNce9JvNeMS8VaV-13" value="结束" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="450" width="120" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
