@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3" pages="2">
   <diagram name="Page-1" id="LADLwiFR2EDL9LDYRoZP">
-    <mxGraphModel dx="2482" dy="1415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2242" dy="1415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,54 @@
             <mxPoint x="-1023" y="-54" as="sourcePoint" />
             <mxPoint x="-973" y="-104" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s9JZeInkmvqmS7rRAAn6" name="Page-2">
+    <mxGraphModel dx="913" dy="1008" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a6lYVosCZrMtnI53dgjL-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a6lYVosCZrMtnI53dgjL-1" target="a6lYVosCZrMtnI53dgjL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-104" y="16.600021362304688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-8" value="服务拉取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="a6lYVosCZrMtnI53dgjL-5">
+          <mxGeometry x="-0.1325" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="a6lYVosCZrMtnI53dgjL-1" target="a6lYVosCZrMtnI53dgjL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-11" value="建立dubbo长连接" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="a6lYVosCZrMtnI53dgjL-10">
+          <mxGeometry x="-0.0946" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-1" value="服务消费者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-164" y="114" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-2" value="注册中心&lt;div&gt;zookeeper&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="66" y="-12" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="a6lYVosCZrMtnI53dgjL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="187.5999755859375" y="17.4000244140625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-9" value="服务注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="a6lYVosCZrMtnI53dgjL-6">
+          <mxGeometry x="-0.0464" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-3" value="服务提供者&lt;div&gt;获取服务信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="118" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6lYVosCZrMtnI53dgjL-12" value="若注册多个服务，采用负载均衡方式" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-104" y="180" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
